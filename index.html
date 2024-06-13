@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Header</title>
+</head>
+<body>
+    <header class="dc-header-wrapper">
+        <div class="dc-header dch-center-class">
+            <div class="dch-left">
+                <div class="dch-logo dch-center-class">
+                    <img src="https://cdn.shopify.com/s/files/1/0702/5367/4739/files/logo-text.svg?v=1716285851" alt="website dceyewr official logo">
+                </div>
+                <div id="hamburger-menu" class="dch-hamburger dch-center-class">
+                    <svg width="24" height="16" viewBox="0 0 24 16" fill="none" class="dch-hamburger-btn" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 2.5H23C23.552 2.5 24 2.052 24 1.5C24 0.948 23.552 0.5 23 0.5H1C0.448 0.5 0 0.948 0 1.5C0 2.052 0.448 2.5 1 2.5Z" fill="black"></path>
+                        <path d="M23 7H1C0.448 7 0 7.448 0 8C0 8.552 0.448 9 1 9H23C23.552 9 24 8.552 24 8C24 7.448 23.552 7 23 7Z" fill="black"></path>
+                        <path d="M23 13.5H1C0.448 13.5 0 13.948 0 14.5C0 15.052 0.448 15.5 1 15.5H23C23.552 15.5 24 15.052 24 14.5C24 13.948 23.552 13.5 23 13.5Z" fill="black"></path>
+                    </svg>
+                </div>
+                <div class="dch-menu">
+                    <menu>
+                        <ul>
+                            <li><button data-heading="Sunglasses" data-id="sunglasses-content" class="dchsml-btn-menu" type="button">Sunglasses</button></li>
+                            <li><button data-heading="Prescription" data-id="prescription-content" class="dchsml-btn-menu" type="button">Prescription</button></li>
+                            <li><button data-heading="New Arrivals" data-id="new-arrivals-content" class="dchsml-btn-menu" type="button">New Arrivals</button></li>
+                            <li><button data-heading="Collection" data-id="collection-content" class="dchsml-btn-menu" type="button">Collection</button></li>
+                            <li><button data-heading="Sale" data-id="sale-content" class="dchsml-btn-menu" type="button">Sale</button></li>
+                        </ul>
+                    </menu>
+                </div>
+            </div>
+            <div class="dch-right"></div>
+        </div>
+    </header>
+    <div id="header-sidebar" class="dc-header-sidebar">
+        <div class="dchs-wrapper">
+            <!-- For Desktop -->
+            <div class="dchs-wrapper-desktop">
+                <div id="dchs-menu-links" class="dchs-menu-links">
+                    <div>
+                        <button id="sidebar-close-btn" class="sidebar-close-btn" type="button">
+                            <span class="header-icon-setting header-close-icon"></span>
+                        </button>
+                        <button data-heading="Sunglasses" data-id="sunglasses-content" class="dchsml-btn menu-link-btn-with-icon" type="button">
+                            <span>Sunglasses</span>
+                            <span class="right-side-arrow-caret header-icon-setting"></span>
+                        </button>
+                        <button data-heading="Prescription" data-id="prescription-content" class="dchsml-btn menu-link-btn-with-icon" type="button">
+                            <span>Prescription</span>
+                            <span class="right-side-arrow-caret header-icon-setting"></span>
+                        </button>
+                        <button data-heading="New Arrivals" data-id="new-arrivals-content" class="dchsml-btn menu-link-btn-with-icon" type="button">
+                            <span>New Arrivals</span>
+                            <span class="right-side-arrow-caret header-icon-setting"></span>
+                        </button>
+                        <button data-heading="Collection" data-id="collection-content" class="dchsml-btn menu-link-btn-with-icon" type="button">
+                            <span>Collection</span>
+                            <span class="right-side-arrow-caret header-icon-setting"></span>
+                        </button>
+                        <button data-heading="Sale" data-id="sale-content" class="dchsml-btn menu-link-btn-with-icon" type="button">
+                            <span>Sale</span>
+                            <span class="right-side-arrow-caret header-icon-setting"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="dchs-active-btn-content-container-left" id="dchs-active-btn-content-left">
+                    <div>
+                        <button id="go-to-back-dchs-menu-links" class="sidebar-close-btn" type="button">
+                            <span class="header-icon-setting right-side-arrow-caret"></span>
+                        </button>
+                        <strong class="dchs-active-content-heading" style="text-transform: uppercase;">SUNGLASSES</strong>
+                    </div>
+                    <div data-id="sunglasses-content" class="menu-links dchs-active-content-left dcsh-hidden">
+                        <ul>
+                            <li><a href="#">All Sunglasses</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                        </ul>
+                    </div>
+                    <div data-id="prescription-content" class="menu-links dchs-active-content-left dcsh-hidden">
+                        <ul>
+                            <li><a href="#">All Sunglasses</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                        </ul>
+                    </div>
+                    <div data-id="new-arrivals-content" class="menu-links dchs-active-content-left dcsh-hidden">
+                        <ul>
+                            <li><a href="#">All Sunglasses</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                        </ul>
+                    </div>
+                    <div data-id="collection-content" class="menu-links dchs-active-content-left dcsh-hidden">
+                        <ul>
+                            <li><a href="#">All Sunglasses</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                        </ul>
+                    </div>
+                    <div data-id="sale-content" class="menu-links dchs-active-content-left dcsh-hidden">
+                        <ul>
+                            <li><a href="#">All Sunglasses</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dchs-active-btn-content-container-right" id="dchs-active-btn-content-right">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/public/js/dcsh-script-v1.js"></script>
+</body>
+</html>
